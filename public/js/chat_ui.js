@@ -1,3 +1,5 @@
+//path.join(__dirname, 'public');//for pkg static files
+
 function divEscapedContentElement(message) {
     return $('<div></div>').text(message);
 }
@@ -52,7 +54,7 @@ $(document).ready(function () {
 
     socket.on('rooms', function(rooms) {
         $('#room-list').empty();
-
+        
         for (var room in rooms) {
             room = room.substring(1, room.length);
             if (room != '') {

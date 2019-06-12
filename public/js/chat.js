@@ -1,3 +1,5 @@
+//path.join(__dirname, 'public')//for pkg static files
+
 var Chat = function(socket) {
     this.socket = socket;
 };
