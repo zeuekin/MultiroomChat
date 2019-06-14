@@ -1,10 +1,6 @@
 body {
     padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-    color: #00b7ff
+    font: 100% "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 #content {
@@ -16,6 +12,7 @@ a {
 #room {
     background-color: #ddd;
     margin-bottom: 1em;
+    font-size: 150%;
 }
 
 #messages {
@@ -46,11 +43,19 @@ a {
     width: 700px;
     margin-bottom: 1em;
     margin-right: 1em;
+    font-size: 130%;
 }
 
 #help {
-    font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 90% "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+#send-button {
+    height: 50px;
+    width: 60px;
+    color: black;
+    border-radius: 10px;
+    background: rgb(225, 227, 228);
+}
 
 
