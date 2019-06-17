@@ -1,3 +1,6 @@
+//This is the entrance of multi-room chat app
+//This is also the entrance of other apps afliated the chatroom
+
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
